@@ -1,3 +1,136 @@
-body {
-  font-size:1rem;
+/* Réinitialisation des styles de base */
+body, h1, h2, p, ul, li, a, span {
+  margin: 0;
+  padding: 0;
 }
+
+/* Styles de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* En-tête */
+header {
+  background-color: #0078d4;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #0078d4;
+}
+
+/* Ajout des styles pour les sections */
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  flex-wrap: wrap; /* Permet le retour à la ligne des sections si nécessaire */
+}
+
+section {
+  width: 45%; /* Largeur des sections */
+  margin: 20px; /* Marge autour des sections */
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #0078d4;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Position fixe */
+  bottom: 0; /* En bas de la fenêtre */
+  left: 0; /* Aligné à gauche */
+  width: 100%; /* Largeur de 100% */
+}
+
+
+/* Liens dans le pied de page */
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10px;
+  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour le texte en gras et italique */
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #0078d4; /* Couleur de fond de l'en-tête */
+  color: #fff; /* Couleur du texte de l'en-tête */
+  text-align: center; /* Centre le contenu horizontalement */
+  padding: 20px 0; /* Espacement interne de l'en-tête */
+}
+
+/* Styles pour l'image dans l'en-tête */
+header img {
+  max-width: 100%; /* Largeur maximale de l'image */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+/* Ajoutez ces styles à votre fichier CSS */
+.image-container {
+  text-align: center; /* Centre les images horizontalement */
+}
+
+.image-container img {
+  width: 100px; /* Définissez la largeur souhaitée */
+  margin: 0 10px; /* Ajoutez de la marge autour des images */
+}
+/* Styles pour l'image dans l'en-tête */
+/* Styles pour l'image dans l'en-tête pour occuper toute la largeur */
+header img {
+  width: 85%; /* Largeur de 100% pour occuper toute la largeur */
+  height: 10%; /* Hauteur automatique pour conserver les proportions */
+}
+
+
+
+
