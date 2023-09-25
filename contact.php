@@ -107,7 +107,7 @@
             ?>
 
             <form method="post" action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?>">
-                <p>Votre nom et prénom: <input type="text" name="nom" size="30" /></p>
+                <p>Votre nom et prénom: <input type="text" name="nom" size="30" autofocus/></p>
                 <p>Votre email <span style="color:#ff0000;">*</span>: <input type="text" name="email" size="30" /></p>
                 <p>Message <span style="color:#ff0000;">*</span>:</p>
                 <textarea name="message" cols="60" rows="10"></textarea>
